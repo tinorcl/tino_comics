@@ -1,7 +1,11 @@
-h1{
-    font-family:"Roboto Condensed", sans-serif;
-    font-weight:bolder;
-    font-style: normal;
-    align-items: center;
-}
+@import "./utilities/reset";
+@import "./utilities/variables";
+@import "./utilities/mixin";
+@import "./utilities/extend";
+@import "./utilities/global";
 
+@import "./components/header";
+@import "./pages/main-index";
+@import "./components/footer";
+
+@import "./utilities/media-querie"
